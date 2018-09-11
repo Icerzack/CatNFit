@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/miska1"
+        android:id="@+id/imageView5"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/radioButton3"
+        android:checked="true"
+        android:layout_x="30dp"
+        android:layout_y="75dp" />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/miska2"
+        android:id="@+id/imageView7"
+        android:layout_x="295dp"
+        android:layout_y="0dp" />
+
+    <TextView
+        android:text="- Кормушка -  "
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView47"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_x="129dp"
+        android:layout_y="80dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/radioButton4"
+        android:checked="false"
+        android:layout_x="327dp"
+        android:layout_y="75dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:background="@drawable/armwith"
+        android:layout_height="150dp"
+        android:layout_width="115dp"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:layout_x="134dp"
+        android:layout_y="134dp" />
+
+    <TextView
+        android:text="Кормить"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView43"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_x="136dp"
+        android:layout_y="291dp" />
+
+    <Button
+        android:text=" "
+        android:layout_height="84dp"
+        android:id="@+id/button13"
+        android:background="@drawable/bell"
+        android:layout_width="116dp"
+        android:layout_x="132dp"
+        android:layout_y="351dp" />
+
+    <TextView
+        android:text="Позвать"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView54"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_x="132dp"
+        android:layout_y="445dp" />
+</AbsoluteLayout>

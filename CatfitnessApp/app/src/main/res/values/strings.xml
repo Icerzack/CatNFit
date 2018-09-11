@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"><b>Cat-n-Fit: </b><i>вручную...</i></string>
+    <string name="app_name_for_CatsProgress"><b>Cat-n-Fit: </b><i>последнее...</i></string>
+    <string name="app_name_for_MainActivity"><b>Cat-n-Fit: </b><i>подключение...</i></string>
+    <string name="app_name_for_ManualControl"><b>Cat-n-Fit: </b><i>вручную...</i></string>
+    <string name="app_name_for_ReportActivity"><b>Cat-n-Fit: </b><i>статистика...</i></string>
+    <string name="app_name_for_SettingsActivity"><b>Cat-n-Fit: </b><i>настройки...</i></string>
+    <string name="app_name_for_LOG"><b>Cat-n-Fit: </b><i>LOG...</i></string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

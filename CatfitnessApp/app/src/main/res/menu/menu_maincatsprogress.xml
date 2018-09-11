@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CatsProgress">
+    <item android:title="Статистика тренировок"
+        android:id="@+id/action_report" />
+    <item android:title="Настройки подключения"
+        android:id="@+id/connecting" />
+    <item android:title="Item"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:id="@+id/item" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Ручное управление" />
+    <item android:title="Лог-Файл"
+        android:orderInCategory="101"
+        android:id="@+id/logFile" />
+    <item android:title="Инструкция"
+        android:id="@+id/instruction"
+        android:orderInCategory="102" />
+    <item android:title="О программе"
+        android:id="@+id/about"
+        android:orderInCategory="103" />
+</menu>

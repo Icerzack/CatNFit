@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CatsProgress">
+    <item android:title="Главная страница"
+        android:id="@+id/action_otcht" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="Ручное управление" />
+    <item android:title="Item"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:id="@+id/item" />
+    <item android:title="Лог-Файл"
+        android:id="@+id/logFile"
+        android:orderInCategory="102" />
+    <item android:title="Инструкция"
+        android:orderInCategory="103"
+        android:id="@+id/instruction" />
+    <item android:title="О программе"
+        android:id="@+id/about"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="104" />
+</menu>
