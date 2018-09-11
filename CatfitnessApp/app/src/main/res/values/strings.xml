@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"><b>Cat-n-Fit: </b><i>вручную...</i></string>
+    <string name="app_name"><b>Cat-n-Fit</b></string>
     <string name="app_name_for_CatsProgress"><b>Cat-n-Fit: </b><i>последнее...</i></string>
     <string name="app_name_for_MainActivity"><b>Cat-n-Fit: </b><i>подключение...</i></string>
     <string name="app_name_for_ManualControl"><b>Cat-n-Fit: </b><i>вручную...</i></string>
